@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Online Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+           background-image: url(https://i.pinimg.com/564x/45/1b/cc/451bcc37697c296462f7ae7a2f87c9a0.jpg);
+            background-repeat: none;
+            background-size: cover;
+        }
+        .navbar {
+            background-color: white;
+            overflow: hidden;
+            padding: 10px;
+            position: relative;
+        }
+        .navbar a {
+            float: left;
+            display: block;
+            color: #E27396;
+            text-align: center;
+            padding: 14px 20px;
+            z-index: 1;
+        }
+        .navbar input[type="text"] {
+            float: right;
+            padding: 8px;
+            margin-top: 8px;
+            margin-right: 10px;
+            border: 10px;
+            box-sizing: border-box;
+        }
+        .navbar button {
+            float: right;
+            padding: 8px;
+            margin-top: 8px;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+            background-color: #F98CB9;
+            color: white;
+        }
+        .navbar button:hover {
+            background-color: #E27396;
+        }
+        .navbar img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            z-index: 1;
+        }
+        .main-content {
+            text-align: center;
+            margin-top: 100px;
+            font-family: gill sans;
+        }
+        .main-content h2 {
+            color: #ed81a1; 
+        }
+
+        .project-iframe {
+            width: 100%;
+            height: 500px; 
+        }
+
+        .back-btn {
+            margin-top: 20px;
+            border-radius: 20px;
+            width: 400px;
+            height: 50px;
+            border: none;
+            font-family: gill sans;
+            background-color: #F98CB9;
+            margin-bottom: 100px;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="navbar">
+    <img src="https://i.pinimg.com/564x/6a/3b/e0/6a3be0cd9c8f4c035207e319c9d4130d.jpg">
+    <a href="#"></a>
+    <a href="page2.html">First Quarter</a>
+    <a href="page3.html">Second Quarter</a>
+    <input type="text" placeholder="Enter a keyword">
+    <button type="submit">Search</button>
+</div>
+
+    <div class="main-content"> <h2>Wonders of The Philippines</h2> <iframe class="project-iframe" src="https://blubrizu.github.io/-ICT9R_Q2Project_Aliemante_Mireya/"></iframe> <button class="back-btn" onclick="window.location.href='mainpage.html';">Back to Main Page</button> 
+    </div>
+
+</body>
+</html>
